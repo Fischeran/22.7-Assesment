@@ -1,0 +1,64 @@
+header {
+    background-color: #0B1C51;
+    margin-bottom: 40px;
+
+}
+
+header h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+}
+
+header nav {
+    display: flex;
+    justify-content: center
+}
+
+a, h1 {
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0px;
+
+}
+
+header nav ul li a {
+   
+    text-decoration: none;
+   
+    margin: 0 20px 0 0;
+  }
+
+li {
+    padding: 10px;
+    font: Montserrat;
+    
+}
+
+/* when browser is LARGER than min-width size this is what happens */
+
+@media all and (min-width: 600px) {
+
+    h1 {
+        font-size: 52px;
+    }
+    
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+h1 {
+    font-size: 48px;
+}
